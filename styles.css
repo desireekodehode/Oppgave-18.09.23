@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: plum;
+}
+
+button {
+    padding: 4px 16px;
+    height: fit-content;
+  
+  }
