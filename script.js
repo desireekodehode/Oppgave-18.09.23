@@ -15,17 +15,27 @@
 // }
 // console.log()
 
-function give()  { 
-    let antallkompliment = compliment.length
-    const randomIndex = Math.floor(Math.random() * compliment.length)
-    const compliment = compliment[randomIndex];
-    return compliment
-}
-const compliment = [
-    "Hallo", 
-    "Du er god",
-    "Dette blir bra",
-    "Sola skinner"
-];
+function give() { 
+    const compliment = [
+        "Hallo!", 
+        "Du er god!",
+        "Dette blir så bra",
+        "Sola skinner, tenk!",
+    ];
+   
+console.log(compliment)
 
+const randomIndex = Math.floor(Math.random() * compliment.length)
+const compliments = compliment[randomIndex];
+
+document.getElementById("jsOutput").textContent = compliments
+
+console.log([])
+
+    // let randomIndex = Math.floor(Math.random() * compliment.length)
+    // return randomIndex
+
+
+
+}
 console.log(give())
