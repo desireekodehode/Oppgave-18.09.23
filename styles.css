@@ -3,12 +3,38 @@
     margin: 0;
 }
 body{
-    background-color: rgb(155, 95, 155);
+    background-color: #CBCCC7;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
+}
+@media screen and (min-width: 480px) {
+  body {
+    background-color: rgb(189, 152, 138);
+  }
+}
+@media screen and( max-width: 600px){
+  body {
+    background-color: coral;
+  }
+}
+@media screen and(max-width:992px) {
+  body{
+    background-color: powderblue;
+  }
+  
+}
+  
+
+
+:root {
+  --primary-color: #A9ABA8;
+  --secondary-color:#CBCCC7;
+   --color:#E0E0D5;
+   --color: #D0CABA;
+   --color: #B8AB90;
 }
 
 button {
@@ -39,13 +65,13 @@ div#jsOutput {
  display: flex;
   size: contain;
     opacity: 0.80;
-    padding: 2%;
     width: fit-content;
     padding:2px, 2px, 2px, 2px;
   }
  div.imagewrapper {
-  width: 25%;
-  height: 25%;
+  width: 32%;
+  height: 30%;
+  border: solid black;
 
  }  
  img{
@@ -56,5 +82,5 @@ padding: 2px, 2px, 2px, 2px;
  
 
  img:hover {
-  opacity: 1;
+  opacity: 0.7;
  }
