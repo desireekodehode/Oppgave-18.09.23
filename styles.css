@@ -26,13 +26,13 @@ button {
   }
 
 div {
- 
+ display: flex;
   size: contain;
     opacity: 0.80;
     padding: 2%;
     
     
   }
-  img:hover {
-    opacity: o.70;
-  }
+ img:hover {
+  opacity: 0,2;
+ }
